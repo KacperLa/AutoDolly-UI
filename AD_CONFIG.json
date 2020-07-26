@@ -1,0 +1,47 @@
+{
+	"pos_pidf": {
+		"position": {
+			"dead_zone": 0.005,
+			"p": 0.7,
+			"i": 0.05,
+			"d": 0.0,
+			"f": 0.0
+		},
+		"rotation": {
+			"dead_zone": 0.001,
+			"p": 0.5,
+			"i": 0.01,
+			"d": 0.0,
+			"f": 0.0
+		}
+	},
+
+  "dolly": {
+		"velocity_limit": 0,
+		"omega_dot_limit": 0,
+		"module": {
+			"theta": {
+				"k_p": 8.0,
+				"k_v": 0.001,
+				"k_vi": 0.001,
+				"current_limit": 4.0,
+				"bandwidth": 10.0
+			},
+			"velocity": {
+				"k_p": 0.0,
+				"k_v": 0.029,
+				"k_vi": 0.002,
+				"current_limit": 4.0,
+				"bandwidth": 10.0
+			}
+		}
+	},
+	"pedestal": {
+		"z": {
+			"velocity_limit": 0,
+			"current_limit": 0,
+			"k_v": 0,
+			"k_vi": 0
+		}
+	}
+}
